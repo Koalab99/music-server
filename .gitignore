@@ -1,0 +1,13 @@
+bin
+dep
+obj
+aclocal.m4
+autom4te.cache
+compile
+config.h.in
+configure
+depcomp
+install-sh
+Makefile.in
+missing
+build
