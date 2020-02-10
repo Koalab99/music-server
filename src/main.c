@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
 	}
 	else {
 		if(play_stream(STDIN_FILENO) != 0) {
-			fprintf(stderr, "Could not play song on stdin");
+			fprintf(stderr, "Could not play song on stdin.\n");
 			exit(EXIT_FAILURE);
 		}
 	}
