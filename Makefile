@@ -5,7 +5,7 @@ CC=gcc
 FILETYPE=c
 
 CCFLAG=-Wall -g 
-LDFLAG=-lpulse -lpulse-simple
+LDFLAG=-lpulse -lpulse-simple -lpthread -lavformat -lavutil -lswresample
 
 EXE=music-server
 

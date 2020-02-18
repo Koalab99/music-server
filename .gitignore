@@ -1,6 +1,7 @@
 bin
 dep
 obj
+sample
 aclocal.m4
 autom4te.cache
 compile

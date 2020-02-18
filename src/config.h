@@ -4,6 +4,18 @@
 // Configuration file for music-server
 
 // The size of the audio stream buffer
-#define BUFFER_SIZE 1024
+#define AUDIO_BUFFER_SIZE 2048
+
+// Path for the FIFO stack
+#define FIFO_PATH "/tmp/music-server/fifo"
+
+// FIFO buffer size
+#define BUFFER_SIZE 2048
+
+// Use PulseAudio
+#define USE_PULSEAUDIO
+
+// Set the sample rate (in Hz)
+#define SAMPLE_RATE 44100
 
 #endif
